@@ -1,6 +1,6 @@
 # Code for creation of alb
 
-resource "aws_lb" "test" {
+resource "aws_lb" "alb" {
   name               = "test-lb-tf"
   internal           = false
   load_balancer_type = "application"
